@@ -5,10 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WITFlix</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="Wt-ilk-proje.css">
 </head>
 
@@ -28,15 +24,15 @@
       <div class="header-tools">
         <label class="search-wrap" for="search-input">
           <input id="search-input" type="search" placeholder="Search" aria-label="Search">
-          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <span class="ui-icon" aria-hidden="true">⌕</span>
         </label>
 
         <button class="icon-btn" type="button" aria-label="Notifications">
-          <i class="fa-solid fa-bell" aria-hidden="true"></i>
+          <span class="ui-icon" aria-hidden="true">🔔</span>
         </button>
 
         <button class="profile-btn" type="button" aria-label="Profile">
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt="Profile avatar">
+          <img src="assets/profile/avatar.jpg" alt="Profile avatar">
         </button>
       </div>
     </header>
@@ -46,7 +42,7 @@
         <div class="hero-content">
           <h1>THE LORD OF THE RINGS</h1>
           <div class="hero-meta">
-            <span class="stars" aria-label="4 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
+            <span class="stars" aria-label="4 stars">★★★★☆</span>
             <span>8.8 IMDb</span>
             <span class="age">16+</span>
             <span>2h 58m</span>
@@ -59,7 +55,7 @@
           <p class="hero-tags"><strong>Starring:</strong> Elijah Wood, Ian McKellen, Orlando Bloom</p>
           <p class="hero-tags"><strong>Genre:</strong> Fantasy, Adventure</p>
           <p class="hero-tags"><strong>Tags:</strong> #Epic #Trilogy</p>
-          <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+          <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
         </div>
       </div>
     </main>
@@ -70,25 +66,25 @@
         <a href="#">View All</a>
       </div>
       <div class="movies-grid">
-        <article class="movie-card" style="--poster:url('https://image.tmdb.org/t/p/w780/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg')">
+        <article class="movie-card" style="--poster:url('assets/posters/dune.jpg')">
           <div class="card-overlay">
             <h3>Dune</h3>
             <p class="movie-meta"><span>8.0 IMDb</span> • <span class="age age-card">16+</span> • <span>2h 35m</span></p>
-            <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+            <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
           </div>
         </article>
-        <article class="movie-card" style="--poster:url('https://image.tmdb.org/t/p/w780/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg')">
+        <article class="movie-card" style="--poster:url('assets/posters/interstellar.jpg')">
           <div class="card-overlay">
             <h3>Interstellar</h3>
             <p class="movie-meta"><span>8.7 IMDb</span> • <span class="age age-card">16+</span> • <span>2h 49m</span></p>
-            <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+            <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
           </div>
         </article>
-        <article class="movie-card" style="--poster:url('https://image.tmdb.org/t/p/w780/q719jXXEzOoYaps6babgKnONONX.jpg')">
+        <article class="movie-card" style="--poster:url('assets/posters/joker.jpg')">
           <div class="card-overlay">
             <h3>Joker</h3>
             <p class="movie-meta"><span>8.4 IMDb</span> • <span class="age age-card">16+</span> • <span>2h 2m</span></p>
-            <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+            <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
           </div>
         </article>
       </div>
@@ -100,25 +96,25 @@
         <a href="#">View All</a>
       </div>
       <div class="movies-grid">
-        <article class="movie-card" style="--poster:url('https://image.tmdb.org/t/p/w780/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg')">
+        <article class="movie-card" style="--poster:url('assets/posters/john-wick.jpg')">
           <div class="card-overlay">
             <h3>John Wick</h3>
             <p class="movie-meta"><span>7.4 IMDb</span> • <span class="age age-card">16+</span> • <span>1h 41m</span></p>
-            <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+            <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
           </div>
         </article>
-        <article class="movie-card" style="--poster:url('https://image.tmdb.org/t/p/w780/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg')">
+        <article class="movie-card" style="--poster:url('assets/posters/shutter-island.jpg')">
           <div class="card-overlay">
             <h3>Shutter Island</h3>
             <p class="movie-meta"><span>8.2 IMDb</span> • <span class="age age-card">16+</span> • <span>2h 18m</span></p>
-            <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+            <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
           </div>
         </article>
-        <article class="movie-card" style="--poster:url('https://image.tmdb.org/t/p/w780/aQxJsf4M7bb3pyyhL5fPAdIyaGk.jpg')">
+        <article class="movie-card" style="--poster:url('assets/posters/blade-runner-2049.jpg')">
           <div class="card-overlay">
             <h3>Blade Runner 2049</h3>
             <p class="movie-meta"><span>8.0 IMDb</span> • <span class="age age-card">16+</span> • <span>2h 44m</span></p>
-            <button class="play-btn" type="button"><i class="fa-solid fa-play"></i> Play Now</button>
+            <button class="play-btn" type="button"><span aria-hidden="true">▶</span> Play Now</button>
           </div>
         </article>
       </div>
@@ -140,19 +136,19 @@
       <div class="footer-col social-col">
         <h4>Follow Us</h4>
         <div class="social-links">
-          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Twitter">t</a>
         </div>
       </div>
       <div class="footer-col apps-col">
         <h4>Apps</h4>
         <div class="store-links">
           <a href="#" aria-label="Download on the App Store">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            <img src="assets/store/app-store.svg" alt="Download on the App Store">
           </a>
           <a href="#" aria-label="Get it on Google Play">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+            <img src="assets/store/google-play.svg" alt="Get it on Google Play">
           </a>
         </div>
       </div>
